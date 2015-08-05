@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<<<<<<< HEAD
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="fhf-Zy-iig">
+=======
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="fhf-Zy-iig">
+>>>>>>> origin/master
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
@@ -111,6 +115,13 @@
                                             <outlet property="delegate" destination="srW-ut-dzo" id="TcY-jr-Qf9"/>
                                         </connections>
                                     </textField>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="vUx-kt-chX">
+                                        <rect key="frame" x="48" y="503" width="225" height="52"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                 </subviews>
                                 <inset key="insetFor6xAndEarlier" minX="0.0" minY="20" maxX="0.0" maxY="-20"/>
                                 <connections>
@@ -130,6 +141,7 @@
                         <outlet property="scrollView" destination="wgZ-Ti-p3k" id="yfQ-dG-6SQ"/>
                         <outlet property="txtFieldEmail" destination="VbN-cu-4qg" id="HYj-AN-Cjb"/>
                         <outlet property="txtFieldPassword" destination="wme-sS-Eez" id="Jxf-do-DLk"/>
+                        <outlet property="welcomeMessage" destination="vUx-kt-chX" id="fMD-WM-5i7"/>
                         <segue destination="g97-Cb-tgr" kind="push" identifier="loginToDailyDeatls" id="P8o-kh-AHR"/>
                     </connections>
                 </viewController>
